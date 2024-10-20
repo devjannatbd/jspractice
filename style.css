@@ -1,0 +1,48 @@
+ .header,
+ .nav,
+ .main,
+ .first-aside,
+ .secound-aside,
+ .footer {
+   border: 1px solid black;
+   background-color: antiquewhite;
+   padding: 30px;
+ }
+
+ ul>li {
+   list-style: none;
+ }
+
+  .main-container {
+   display: grid;
+   grid-template-areas:
+  "header header header header"
+  "nav main main first-aside "
+  "nav main main secound-aside"
+  "footer footer footer footer";
+ }
+
+ .header {
+   grid-area: header;
+ }
+
+ .nav {
+   grid-area: nav;
+ }
+
+ .main {
+   grid-area: main;
+ }
+
+ .first-aside {
+   grid-area: first-aside;
+ }
+
+ .secound-aside {
+   grid-area: secound-aside;
+ }
+
+ .footer {
+   grid-area: footer;
+ } 
+ /* calculetor */
